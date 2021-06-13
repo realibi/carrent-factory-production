@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<title>Login</title>
+	<link rel="stylesheet" href="css/style.css" media="screen" type="text/css" />
+	<link rel="icon" href="http://vladmaxi.net/favicon.ico" type="image/x-icon">
+	<link rel="shortcut icon" href="http://vladmaxi.net/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css"/>
+
+    <!-- Custom fonts for this template -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css"
+        integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Varela+Round"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"/>
+
+    <!-- Own CSS Styles -->
+    <link rel="stylesheet" href="css/grayscale.css"/>
+    <link rel="stylesheet" href="css/master.css"/>
+
+    <!-- Web3 Provider -->
+    <script src="./node_modules/dist/web3.min.js"></script>
+
+    <!-- Angular Core JavaScript -->
+    <script src="./node_modules/angular/angular.min.js"></script>
+
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous">
+    </script>
+</head>
+
+<body>
+  <div class="wrapper fadeInDown">
+    <div id="formContent">
+      <!-- Tabs Titles -->
+      <h2 id="login_text" class="active">Login</h2>
+      <h2 id="registration_text" class="">Registration</h2>
+  
+      <!-- Login Form -->
+      <div id="login_form">
+        <input type="text" id="email_log" class="fadeIn second" name="email" placeholder="email">
+        <input type="password" id="password_log" class="fadeIn third" name="password" placeholder="password">
+        <input type="submit" id="loginBtn" class="fadeIn fourth" value="Log In">
+      </div>
+
+      <div id="registration_form">
+        <input type="text" id="email_reg" class="fadeIn second" name="email" placeholder="email">
+        <input type="password" id="password_reg" class="fadeIn third" name="password" placeholder="password">
+        <input type="text" id="name_reg" class="fadeIn third" name="name" placeholder="name">
+        <input type="text" id="address_reg" class="fadeIn third" name="address" placeholder="address">
+        <input type="text" id="number_reg" class="fadeIn third" name="number" placeholder="number">
+        <input type="submit"id="registerBtn" class="fadeIn fourth" value="Register" >
+      </div>
+    </div>
+  </div>
+
+
+
+</form>
+
+  <script src="js/index.js"></script>
+
+</body>
+
+</html>
