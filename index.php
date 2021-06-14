@@ -117,7 +117,7 @@
             <!-- Project One Row -->
             <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
                 <div class="col-lg-6 bg-black">
-                    <img class="img-fluid mx-auto d-block" style="align-items:center;" src="images/mersedes.jpg" alt="" width="250"/ >
+                    <img class="img-fluid mx-auto d-block" style="align-items:center; padding-top: 80px" src="images/mersedes.jpg" alt="" width="250"/ >
                 </div>
                 <div class="col-lg-6">
                     <div class="bg-black text-center h-100 project">
@@ -135,7 +135,7 @@
             <!-- Project Two Row -->
             <div class="row justify-content-center no-gutters">
                 <div class="col-lg-6 bg-black">
-                    <img class="img-fluid mx-auto d-block" src="images/lexus.jpg" alt="" width="250">
+                    <img class="img-fluid mx-auto d-block" style="padding-top: 80px" src="images/lexus.jpg" alt="" width="250">
                 </div>
                 <div class="col-lg-6 order-lg-first">
                     <div class="bg-black text-center h-100 project">
@@ -152,7 +152,7 @@
 
             <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
                 <div class="col-lg-6 bg-black">
-                    <img class="img-fluid mx-auto d-block" src="images/ferrary.jpg" alt="" width="250"/>
+                    <img class="img-fluid mx-auto d-block" style="padding-top: 80px" src="images/ferrary.jpg" alt="" width="250"/>
                 </div>
                 <div class="col-lg-6">
                     <div class="bg-black text-center h-100 project">
@@ -169,7 +169,7 @@
 
             <div class="row justify-content-center no-gutters">
                 <div class="col-lg-6 bg-black">
-                    <img class="img-fluid mx-auto d-block" src="images/toyota.jpg" alt="" width="350">
+                    <img class="img-fluid mx-auto d-block" style="padding-top: 80px" src="images/toyota.jpg" alt="" width="350">
                 </div>
                 <div class="col-lg-6 order-lg-first">
                     <div class="bg-black text-center h-100 project">
